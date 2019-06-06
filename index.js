@@ -52,5 +52,4 @@ app.post('/check', (req, res) => {
     return res.redirect(`/minor?age=${age}`)
   }
 })
-
 app.listen(process.env.PORT || 3000)
